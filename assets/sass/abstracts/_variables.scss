@@ -1,0 +1,53 @@
+//esquema de colores
+//primer esquema
+$white: #ffffff;
+$$platinum: #e8e8e8;
+$gray: #bababa;
+
+//segundo esquema de color 
+$dark-salmon: #ee9480;
+$melon: #f4baae;
+$pale-pink: #fadfda;
+
+//tercer esquema de color 
+$ball-blue: #2ab7ca;
+$middle-blue: #77d1dd;
+$blue-lagoon: #b1e4eb;
+
+//cuarto esquema de color 
+$onyx: #333745;
+$spanish-gray: #8f9199;
+$lavender-gray: #c7c8cc;
+
+//tercer esquema de color 
+$raising-black: #221d23;
+$nickel: #726f73;
+$silver-chalice: #aeacaf;
+
+//tipografia
+$open-sans: 'Open Sans', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+//peso tipografico
+$regular: 400;
+$bold: 700;
+
+// font size
+$xxxxx-large: 3.125rem;
+$xxxx-large: 2.8rem;
+$xxx-large: 2.5rem;
+$xx-large: 2.2rem;
+$x-large: 1.8rem;
+$large: 1.25rem;
+$medium: 1rem;
+$small: 0.875rem;
+$x-small: 0.75rem;
+
+///variable para operar la funcion de llamado imagenes  Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+/* parar llamar a imagenes coloco el key = la funsion (el nombre);
+ejemplo background-image: img(casa. jpg)*/
