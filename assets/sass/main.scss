@@ -20,9 +20,10 @@
 
 //layout
 @import 'layout/simple-grid';
-@import '_main-section';
-@import '_caracteristicas';
-@import '_precios';
+//@import 'layout/grid';
+@import 'layout/main-section';
+@import 'layout/caracteristicas';
+@import 'layout/precios';
 //pages - no hay
 
 //theme - no hay
